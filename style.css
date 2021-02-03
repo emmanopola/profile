@@ -1,0 +1,120 @@
+body {
+  background-color: #FFFBFE;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #2E2E3A;
+  line-height: 10px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #679289;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 35px;
+
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #679289;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 140px;
+  width: 140px;
+  padding: 50px, 50px;
+
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  color: #2E2E3A;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+ul {
+  color: #D33F49;
+  font-size: 25px;
+  text-decoration: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  /*border: 1px solid #EDEAEA;*/
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  text-align: center;
+  padding: 40px;
+}
+
+.btn-pink {
+    background-color: #DFF3E3;
+    color: #2E2E3A;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.btn-pink:hover {
+  color: #2E2E3A ;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #D33F49;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+#introduction p {
+    margin-bottom: 55px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
